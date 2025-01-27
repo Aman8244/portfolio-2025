@@ -1,5 +1,5 @@
 "use client"
-import { PlaceholdersAndVanishInput } from '@/components/ui/Placeholders-and-vanish-inputs';
+import { PlaceholdersAndVanishInput } from '@/components/ui/placeholders-and-vanish-inputs';
 import { useToast } from '@/hooks/use-toast';
 import React, { useState } from 'react'
 
