@@ -10,7 +10,7 @@ import Experience from './Experience'
 const Portfolio = () => {
     return (
         <div
-            className='bg-[#000000f1] text-[#ffffffeb] min-h-screen'>
+            className='bg-[#000000f1] text-[#ffffffeb] md:px-[3%] min-h-screen'>
             <Navbar />
             <Seperator/>
             <Intro/>
