@@ -16,7 +16,7 @@ const Projects = () => {
         setInputText(e.target.value);
         if (e.target.value != "") {
             setProjects(() => {
-                return ProjectsDb.filter((el) => el.name.toLowerCase().includes(e.target.value) || el.description.toLowerCase().includes(e.target.value))
+                return ProjectsDb.filter((el) => el.name.toLowerCase().includes(e.target.value?.toLowerCase()) || el.description.toLowerCase().includes(e.target.value?.toLowerCase()))
             })
         }
         else {
