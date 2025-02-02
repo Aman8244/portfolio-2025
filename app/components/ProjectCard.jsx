@@ -35,7 +35,7 @@ const ProjectCard = ({ name, imgurl, description, url, techstack }) => {
                     </div>
                 </div>
                 <div className='flex gap-2 flex-wrap'>
-                    {techstack?.map((el, key) => <span className={`text-[#ffff] p-2 my-2 rounded-[0.375rem] text-[0.875rem] min-w-[1.5rem] min-h-[1.5rem] font-[600] items-center text-center ${(frameworks.includes(el)?"text-[#9ae684] bg-[#9ae6b429]":Languages.includes(el)?"bg-[#faf08929] text-[#faf089]":CSS.includes(el)?"text-[#fbb6ce] bg-[#fbb6ce29]":"text-[#e2e8f0] bg-[#e2e8f029]")}  `} key={key}>{el}</span>)}
+                    {techstack?.map((el, key) => <span className={`text-[#ffff] p-1  rounded-[0.375rem] text-[0.875rem] font-[600] items-center text-center ${(frameworks.includes(el)?"text-[#75eb55] bg-[#9ae6b429]":Languages.includes(el)?"bg-[#faf08929] text-[#fdf16b]":CSS.includes(el)?"text-[#fd71a2] bg-[#fbb6ce29]":"text-[#68a3f1] bg-[#e2e8f029]")}  `} key={key}>{el}</span>)}
                 </div>
                 <Seperator />
                 <CardDescription>{description}</CardDescription>

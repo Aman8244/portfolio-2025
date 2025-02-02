@@ -7,10 +7,10 @@ const CreativeWork = () => {
   
 
     return (
-        <div className=' w-[90%] mx-[5%] lg:w-[80%] mt-[10%] md:mt-0 lg:mx-[10%] py-[4%]'>
+        <div className=' w-[90%] mx-[5%] lg:w-[80%] mt-[10rem] md:mt-0 lg:mx-[10%] py-[4%]'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-3  ">
                 <div>
-                    <h2 className="text-[#ffff] text-[1.25rem] font-[700] font-[cursive]">All Creative Works.</h2>
+                    <h2 className="text-[#ffff] text-[1.25rem] font-[700] font-[serif]">All Creative Works.</h2>
                     <div className=''>
                         <p className="text-[#8f9094] font-sans mt-2">Here's some of my projects that I have worked on.</p>
                         <Link href={"/projects"} className='text-[#3CCF91] mt-3 flex space-x-3 items-center justify-start'>

@@ -19,7 +19,7 @@ const Intro = () => {
             </div> <br />
             <div className='text-[#8f9094] text-[1rem] md:text-[1.5rem]'>
                 🚀 Currently specializing in Web Development (React / Next.js) <br />
-                ⚡ Reactjs Intern at CampaignSwift
+                ⚡ Reactjs Developer at TheGoodGameTheory
             </div> <br /> 
             <div className='flex  gap-3 flex-wrap'>
                 {[{ name: "Github", img: "https://img.icons8.com/windows/64/3ccf91/github.png", url: "https://github.com/Aman8244" },

@@ -25,10 +25,10 @@ const Projects = () => {
     }
 
     return (
-        <div className='min-h-screen pb-[3rem]  px-[3%] bg-[#000000f1] text-[#ffffffeb]'>
+        <div className='min-h-screen pb-[3rem]  md:px-[3%] bg-[#000000f1] text-[#ffffffeb]'>
             <Navbar />
             <Seperator />
-            <div className='mb-[2.5rem]'>
+            <div className='mb-[2.5rem] mx-[3%] md:mx-0'>
                 <div className='text-[2.25rem] md:text-[3.75rem] font-[500]'>
                     Projects
                 </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                     <input value={inputText} onChange={handleSearch} placeholder="Search projects" type="text" className=" w-[100%] min-w-0 relative text-[1rem] border rounded-[0.375rem] h-[2.5rem] pl-[1rem] pr-[2.5rem] bg-transparent border-[#ffffff3d] " />
                 </div>
             </div>
-            <div>
+            <div className='mx-[3%] md:mx-0'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                     {projects && projects.map((el, key) => {
                         return <ProjectCard {...el} key={key} />

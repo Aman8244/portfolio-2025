@@ -5,7 +5,7 @@ import GetInTouchForm from './GetInTouchForm'
 const Contact = () => {
 
   return (
-    <div className='flex md:w-[80%] md:mx-[10%] w-[90%] mx-[5%] flex-col items-center justify-center py-[4%]'>
+    <div id='contacts' className='flex md:w-[80%] md:mx-[10%] w-[90%] mx-[5%] flex-col items-center justify-center py-[4%]'>
       <div className='capitalize text-[2rem] md:text-[3rem] font-[700]'>
         Get in touch
       </div>
