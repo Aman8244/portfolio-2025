@@ -4,16 +4,36 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
     const data = [
         {
+            title: "TheGoodGameTheory",
+            content: (
+                <div>
+                    <div
+                        className="text-[#ffff] text-[1.2rem] font-normal mb-8">
+                        <strong>Reactjs Developer</strong><br />
+                        <span className="text-[#8f9094]">
+                            Febraury 2025 - Present
+                        </span>
+                    </div>
+                </div>
+            ),
+        },
+        {
             title: "CampaignSwift",
             content: (
                 <div>
-                    <p
+                    <div
                         className="text-[#ffff] text-[1.2rem] font-normal mb-8">
                         <strong>ReactJS Intern</strong><br />
                         <span className="text-[#8f9094]">
-                            January 2021 - Present
+                            January 2025 - Febraury 2025
                         </span>
-                    </p>
+                    </div>
+                    <ul className="list-disc pl-5 text-[#8f9094] text-sm font-normal mb-8">
+                        <li>Assisting in the development of new web applications.</li>
+                        <li>Maintaining and updating existing applications.</li>
+                        <li>Collaborating with team members to contribute to ongoing projects.</li>
+                        <li>Ensuring code quality and adhering to best practices.</li>
+                    </ul>
                 </div>
             ),
         },
@@ -66,7 +86,7 @@ export function TimelineDemo() {
 
 const Experience = () => {
     return (
-        <div className='w-[90%] mx-[10%] lg:w-[80%] lg:mx-[10%] my-10'>
+        <div className='w-[90%] mx-[5%] lg:w-[80%] lg:mx-[10%] my-10'>
             <div>
                 <TimelineDemo />
             </div>

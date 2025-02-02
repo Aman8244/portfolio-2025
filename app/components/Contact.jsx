@@ -5,8 +5,8 @@ import GetInTouchForm from './GetInTouchForm'
 const Contact = () => {
 
   return (
-    <div className='flex flex-col items-center justify-center py-[4%]'>
-      <div className='capitalize text-[3rem] font-[700]'>
+    <div className='flex md:w-[80%] md:mx-[10%] w-[90%] mx-[5%] flex-col items-center justify-center py-[4%]'>
+      <div className='capitalize text-[2rem] md:text-[3rem] font-[700]'>
         Get in touch
       </div>
       <div className='my-5'>
@@ -17,7 +17,7 @@ const Contact = () => {
         </p>
       </div>
       <GetInTouchForm/>
-      <div className='flex space-x-4 my-10'>
+      <div className='flex gap-4 flex-wrap items-center justify-center my-10'>
         {[{ name: "LinkedIn", img: "https://img.icons8.com/ios-glyphs/30/3ccf91/linkedin.png", url: "https://www.linkedin.com/in/aman-singh-433240225/" },
         { name: "Email", img: "https://img.icons8.com/ios-filled/50/3ccf91/new-post.png", url: "mailto:amansinghmarch16@gmail.com" }, { name: "Resume", img: "https://img.icons8.com/ios-filled/50/3ccf91/document--v1.png", url: "/aman-singh.pdf" }].map((el, key) => {
           return <CustomizedButton {...el} key={key} />

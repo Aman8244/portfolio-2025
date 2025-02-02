@@ -21,7 +21,7 @@ const Intro = () => {
                 🚀 Currently specializing in Web Development (React / Next.js) <br />
                 ⚡ Reactjs Intern at CampaignSwift
             </div> <br /> 
-            <div className='flex gap-3 flex-wrap'>
+            <div className='flex  gap-3 flex-wrap'>
                 {[{ name: "Github", img: "https://img.icons8.com/windows/64/3ccf91/github.png", url: "https://github.com/Aman8244" },
                 { name: "LinkedIn", img: "https://img.icons8.com/ios-glyphs/30/3ccf91/linkedin.png", url: "https://www.linkedin.com/in/aman-singh-433240225/" },
                 { name: "Email", img: "https://img.icons8.com/ios-filled/50/3ccf91/new-post.png", url: "mailto:amansinghmarch16@gmail.com" }
