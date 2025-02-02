@@ -10,7 +10,7 @@ const Contact = () => {
         Get in touch
       </div>
       <div className='my-5'>
-        <p className="text-[#8f9094] text-[1rem] text-center">
+        <p className="text-[#8f9094] text-[.875rem] md:text-[1rem] text-center">
           I'm currently specializing in
           <span className="text-[#3ccf91]"> Web Development</span>.<br />
           Feel free to get in touch and talk more about your projects.
