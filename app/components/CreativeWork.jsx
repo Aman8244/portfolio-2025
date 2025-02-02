@@ -22,7 +22,7 @@ const CreativeWork = () => {
                             name: "Artisphere",
                             imgurl: "/artisphere.png",
                             description: "A unique platform where users can sell their own art products and buy different arts.",
-                            url: "/projects/artisphere",
+                            url: "https://artisphere-aman-singh.vercel.app/",
                             techstack: ["Nextjs", "Tailwind CSS", "MongoDB", "REST API"],
                         }].map((el, key) => {
                             return <ProjectCard {...el} key={key} />
@@ -35,14 +35,14 @@ const CreativeWork = () => {
                         name: "AgriScan",
                         imgurl: "/Agriscan.png",
                         description: "A plant disease detection app to identify crop health and suggest actionable remedies!",
-                        url: "/projects/agriscan",
+                        url: "https://github.com/Aman8244/AgriScan",
                         techstack: ["Javascript", "Nextjs", "Reactjs", "Gemini AI API", "Tailwind CSS"],
                     },
                     {
                         name: "LiveStock Guardian",
                         imgurl: "/livestock-guardian.png",
                         description: "Hackathon project (VGU Code Red 3.0) to solve the problem of early disease detection in livestock using AI.",
-                        url: "/projects/livestockguardian",
+                        url: "https://github.com/Aman8244/Livestock-Guardian",
                         techstack: ["Express.js", "Nodejs", "Reactjs", "Flask", "Machine Learning"],
                     }].map((el, key) => {
                         return <div key={key} className='mb-6 md:mb-3'>
