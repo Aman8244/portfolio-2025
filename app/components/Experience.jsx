@@ -4,20 +4,6 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
     const data = [
         {
-            title: "TheGoodGameTheory",
-            content: (
-                <div>
-                    <div
-                        className="text-[#ffff] text-[1.2rem] font-normal mb-8">
-                        <strong>Reactjs Developer</strong><br />
-                        <span className="text-[#8f9094]">
-                            Febraury 2025 - Present
-                        </span>
-                    </div>
-                </div>
-            ),
-        },
-        {
             title: "CampaignSwift",
             content: (
                 <div>
@@ -25,7 +11,7 @@ export function TimelineDemo() {
                         className="text-[#ffff] text-[1.2rem] font-normal mb-8">
                         <strong>ReactJS Intern</strong><br />
                         <span className="text-[#8f9094]">
-                            January 2025 - Febraury 2025
+                            January 2025 - Present
                         </span>
                     </div>
                     <ul className="list-disc pl-5 text-[#8f9094] text-sm font-normal mb-8">
