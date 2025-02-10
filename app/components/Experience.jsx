@@ -9,7 +9,7 @@ export function TimelineDemo() {
                 <div>
                     <div
                         className="text-[#ffff] text-[1.2rem] font-normal mb-8">
-                        <strong>ReactJS Intern</strong><br />
+                        <strong>ReactJS Developer</strong><br />
                         <span className="text-[#8f9094]">
                             January 2025 - Present
                         </span>
