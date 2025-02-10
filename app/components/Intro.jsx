@@ -17,7 +17,7 @@ const Intro = () => {
                 A self-taught developer with an
                 interest in Computer Science.
             </div> <br />
-            <div className='text-[#8f9094] text-[1rem] md:text-[1.5rem]'>
+            <div className='text-[#8f9094] text-[.875rem] md:text-[1.5rem]'>
                 🚀 Currently specializing in Web Development (React / Next.js) <br />
                 ⚡ Reactjs Developer at TheGoodGameTheory
             </div> <br /> 
